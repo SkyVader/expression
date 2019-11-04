@@ -144,10 +144,5 @@ public final class ExpressionGenerator {
     private Operation randomOperation() {
         return operations[random.nextInt(4)];
     }
-
-    public static void main(String[] args) {
-        var v = new ExpressionGenerator(0, 50);
-        System.out.println(v.expression());
-    }
 }
 
